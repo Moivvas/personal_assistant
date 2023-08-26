@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "personal-assistant"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["Moivvas <moivvas@gmail.com>"]
 readme = "README.md"
@@ -14,11 +14,9 @@ rich = "^13.5.2"
 
 
 [tool.poetry.scripts]
-assist = "personal_assistant.main_menu:main"
+assist = "personal_assistant.main_menu:menu"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
-
-
